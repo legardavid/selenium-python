@@ -1,0 +1,26 @@
+1651284741339	geckodriver	INFO	Listening on 127.0.0.1:58439
+1651284744412	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--start-maximized" "--disable-extensions" "--remote-debugging-port" "58440" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Daniel\\AppData\\Local\\Temp\\rust_mozprofileFE1Fh3"
+1651284745073	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Daniel\\AppData\\Local\\Temp\\rust_mozprofileFE1Fh3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58440/devtools/browser/847ecfdb-c045-42da-9ca5-9fb661211a29
+1651284748962	Marionette	INFO	Listening on port 58470
+Read port: 58470
+1651284749113	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.eltiempo.es/dist/js/modules-forecastmap-Index.d6a75bf2a0e89b6399b5.js, line 1: ReferenceError: jQuery is not defined
+[Child 20588, MediaDecoderStateMachine #1] WARNING: 2972bb6de40 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nzSewf41wl2BVJkwxVV_7a6HO8nVCXbzOneYH_Xeelk.js line 1 > eval line 1550 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nzSewf41wl2BVJkwxVV_7a6HO8nVCXbzOneYH_Xeelk.js line 1 > eval line 7762 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nzSewf41wl2BVJkwxVV_7a6HO8nVCXbzOneYH_Xeelk.js line 1 > eval line 872 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://ssl.p.jwpcdn.com/player/v/8.25.1/jwpsrv.js, line 1: TypeError: r is undefined
+1651284916092	Marionette	INFO	Stopped listening on port 58470
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Daniel\AppData\Local\Temp\rust_mozprofileFE1Fh3\protections.sqlite
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
