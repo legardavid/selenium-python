@@ -1,11 +1,13 @@
 from selenium import webdriver
 import time
+browser2 = webdriver.Edge()
 
 #Precio del Bitcoin con Web Scraping (Python y Selenium)
 
-PATH = 'C:/chrome_webdriver/chromedriver.exe'
+PATH = 'C:\path\to\msedgedriver.exe'
 
-driver = webdriver.Chrome(PATH)
+#driver = webdriver.Edge(executable_path=r'C:\path\to\msedgedriver.exe')
+driver = webdriver.Edge(PATH)
 
 driver.get("https://es.investing.com/crypto/bitcoin")
 

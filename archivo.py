@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 import time
-import pandas as pd
+#import pandas as pd
 
 # Opciones de navegación
 options =  webdriver.ChromeOptions()
@@ -67,8 +67,8 @@ for i in range(0, len(tiempo_hoy), 4):
     temp.append(tiempo_hoy[i+1])
     v_viento.append(tiempo_hoy[i+2])
 
-df = pd.DataFrame({'Horas': horas, 'Temperatura': temp, 'V_viento(km_h)':v_viento})
-print(df)
-df.to_csv('tiempo_hoy.csv', index=False)
+#df = pd.DataFrame({'Horas': horas, 'Temperatura': temp, 'V_viento(km_h)':v_viento})
+#print(df)
+#df.to_csv('tiempo_hoy.csv', index=False)
 
 driver.quit()
